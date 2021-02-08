@@ -23,7 +23,7 @@ spec:
   replicas: 2
   selector:
     matchLabels:
-      app: trainSchedule
+      app: train-schedule
   template:
     metadata:
       labels:
